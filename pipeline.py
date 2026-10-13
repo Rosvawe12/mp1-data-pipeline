@@ -2,9 +2,8 @@
 Data Processing Pipeline - CLI Template
 DS 3500 - MP1
 Usage:
-python pipeline.py --input data.csv --output clean.csv
-python pipeline.py --input data.csv --output results.json --format
-json --verbose
+python pipeline.py --input fixtures/sample_data.csv --output output/clean.csv --config config/config.yaml
+python pipeline.py --input fixtures/sample_data.csv --output output/clean.csv --config config/config.yaml --verbose
 """
 import argparse
 import logging
